@@ -505,6 +505,20 @@ i.chevron-down {
   font-family: inherit;
 }
 
+.link-edit{
+  position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: -webkit-fill-available;
+    cursor: pointer;
+}
+
 
 
 

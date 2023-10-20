@@ -43,7 +43,18 @@ import {
   getCodeLanguages
 } from "@lexical/code";
 
-import { CornerUpLeft, CornerUpRight, Bold, Italic, Underline, Code, Link2, AlignCenter, AlignJustify, AlignLeft, AlignRight, Bell } from 'react-feather';
+import {
+  CornerUpLeft,
+  CornerUpRight,
+  Bold, Italic, Underline
+  , Code
+  , Link2
+  , AlignCenter
+  , AlignJustify
+  , AlignLeft
+  , AlignRight
+  , Bell, Edit
+} from 'react-feather';
 /* import strikeethrough from '../assets/strikethrough.svg' */
 const LowPriority = 1;
 
@@ -239,7 +250,7 @@ function FloatingLinkEditor({ editor }: IFloatingLinkEditor) {
               onClick={() => {
                 setEditMode(true);
               }}
-            />
+            ><Edit /></div>
           </div>
         </>
       )}
